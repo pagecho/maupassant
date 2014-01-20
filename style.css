@@ -1,5 +1,4 @@
 /**
- * 简单的响应式模板
  * 
  * @package Maupassant
  * @author cho
@@ -208,6 +207,14 @@ width:800px;
 }
 .post-content img {
 	padding:1em 0;
+}
+.post-content ul{
+	background-color: #f8f8f8;
+	border: 1px solid #ddd;
+	overflow: auto;
+	padding: .5em 2.4em;
+	border-radius: 3px;
+	margin:1.8em 0;
 }
 .archive-title {
 	padding-top:20px;
@@ -443,7 +450,27 @@ img.alignleft {
 img.alignright {
 	margin:5px 0 0 15px;
 }
+/* archives page*/
+.al_year{
+	width:60px;
+	padding: 10px 0;
+}
+.al_mon_list{
+	margin-left: 90px;
+	margin-top: -2.2em;
+	border-left: 1px solid #ddd;
+}
+.al_mon_list li{
+	list-style: none;
+	line-height: 1.8;
+}
+.al_mon_list li a{
+	margin-left: 1.5em;
+}
+.post-content-pages{
+	font-size: 17px;
 
+}
 /*---------------.react-------------*/
 
 @media print, screen and (max-width:1290px) {
@@ -539,4 +566,11 @@ img.alignright {
 	.col1{
 		margin-right:-160px;
 	}
-}
+	.post-content-pages{
+	font-size: 14px;
+	}
+	.al_mon_list{
+	margin-left: 70px;
+	padding-left: 20px;
+	}
+}}
