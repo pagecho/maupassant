@@ -16,7 +16,7 @@
     <script src="http://x.libdd.com/farm1/a571d2/726ce276/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
-    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>"
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <?php $this->header("generator=&template=&"); ?>
 </head>
 <body>
