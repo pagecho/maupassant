@@ -13,7 +13,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 	<!--[if lt IE 9]>
-    <script src="http://x.libdd.com/farm1/a571d2/726ce276/html5shiv.js"></script>
+    <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
     <![endif]-->
     <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
