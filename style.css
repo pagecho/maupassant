@@ -2,7 +2,7 @@
  * 
  * @package Maupassant
  * @author cho
- * @version 1.2
+ * @version 1.1
  * @link http://pagecho.com
  */
  
@@ -13,7 +13,8 @@
 body {
 	background-color:#FFF;
 	color:#444;
-	font-family:"ff-tisa-web-pro",Cambria,"Times New Roman",Georgia,Times, sans-serif;
+	font-family:"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+	-webkit-font-smoothing:antialiased;
 	font-size:14px;
 }
 a,button.submit {
@@ -193,7 +194,8 @@ width:800px;
 	margin-top:-30px;
 }
 .post-content {
-	font:14px/1.8 "ff-tisa-web-pro",Cambria,"Times New Roman",Georgia,Times, sans-serif;
+	font-size: 15px;
+	line-height: 1.715;
 	color:#444;
 	padding-top:25px;
 }
@@ -506,6 +508,9 @@ img.alignright {
 	#secondary{
 		width:180px;
 	}
+	.post-content{
+		font-size: 14px;
+	}
 }
 @media print, screen and (max-width:860px) {
 	#header{
@@ -573,4 +578,4 @@ img.alignright {
 	margin-left: 70px;
 	padding-left: 20px;
 	}
-}}
+}
