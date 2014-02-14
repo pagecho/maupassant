@@ -3,4 +3,4 @@ maupassant
 
 A simple typecho template with great performance on different devices.
 
-![template preview](https://cqplew.by3301.livefilestore.com/y2p3AobblfE5MlrRXp1P3lR7tCd-R7MBz0RP_90BH7Gr9uV3tQEI8xJTpQSzbDIeEnGCMiN8VIvCUk_dhKCc19TqK5yGWwVfyQdEGLedQcyYuA/mps2.png "Maupassant template preview")
+![template preview](https://ddydeg.by3302.livefilestore.com/y2p1ZgHER4eIFaEHhwaf96MvZH4_iLufEIDj7o8acDgI1GXFDtPI-eRAgvokFoR9irbz738gMmWc_N7yexG6uhB1Dcmelb0cXg8HexpiAdZ5HQ/m.png "Maupassant template preview")
