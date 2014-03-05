@@ -26,7 +26,7 @@
                 <h2 class="post-title"><?php _e('没有找到内容'); ?></h2>
             </article>
         <?php endif; ?>
-        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
+        <?php $this->pageNav('&laquo; Previous','Next &raquo;',10,'...');?>
 	</div>
 </div>
 <?php $this->need('sidebar.php'); ?>
