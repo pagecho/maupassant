@@ -1,8 +1,8 @@
 <div id="secondary">
 	<section class="widget">
         <form id="search" method="post" action="./">
-			<input type="text" name="s" class="text" placeholder="<?php _e('输入关键字搜索'); ?>" />
-			<button type="submit" class="submit"><?php _e('搜索'); ?></button>
+            <input type="text" name="s" class="text" placeholder="搜索..." />
+            <button type="submit" class="submit icon-search">搜索</button>
         </form>
     </section>
 
@@ -22,7 +22,7 @@
         <ul class="widget-list">
         <?php $this->widget('Widget_Comments_Recent')->to($comments); ?>
         <?php while($comments->next()): ?>
-            <li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?></a>：<?php $comments->excerpt(35, '...'); ?></li>
+            <li><a href="<?php $comments->permalink(); ?>"><?php $comments->author(false); ?></a>: <?php $comments->excerpt(13, '...'); ?></li>
         <?php endwhile; ?>
         </ul>
     </section>

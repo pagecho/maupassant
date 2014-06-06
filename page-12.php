@@ -1,5 +1,10 @@
-<?php $this->need('header.php'); ?>
-<div class="col-8" id="main">
+<?php    
+   /**  
+    * page-12
+    * @package custom   
+    */    
+$this->need('header.php');?>  
+<div class="col-12" id="main">
 	<div class="res-cons">
 		<article class="post">
 			<header>
@@ -14,5 +19,4 @@
 		<?php $this->need('comments.php'); ?>
 	</div>
 </div>
-<?php $this->need('sidebar.php'); ?>
 <?php $this->need('footer.php'); ?>

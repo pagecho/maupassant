@@ -13,7 +13,7 @@
             'author'    =>  _t('%s 发布的文章')
         ), '', ' - '); ?><?php $this->options->title(); ?></title>
 	<!--[if lt IE 9]>
-    <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('javascript/html5shiv.js'); ?>">
     <![endif]-->
     <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
@@ -25,9 +25,17 @@
     <div class="container">
         <div class="col-group">
             <div class="site-name ">
-                <a id="logo" href="<?php $this->options->siteUrl(); ?>">
-                   <?php $this->options->title() ?>
-                </a>
+                <?php if ($this->is('index')): ?>
+                    <h1>
+                        <a id="logo" href="<?php $this->options->siteUrl(); ?>">
+                            <?php $this->options->title() ?>
+                        </a>
+                    </h1>
+                <?php else:?>
+                    <a id="logo" href="<?php $this->options->siteUrl(); ?>">
+                        <?php $this->options->title() ?>
+                    </a>
+                <?php endif; ?>
         	    <p class="description"><?php $this->options->description() ?></p>
             </div>
             <div>

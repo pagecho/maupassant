@@ -1,7 +1,42 @@
-<?php $this->need('header.php'); ?>
-<div class="error-page">
-	<h2 class="post-title">404 - <?php _e('页面没找到'); ?></h2>
-	<p><?php _e('你想查看的页面已被转移或删除了'); ?></p>
+<!DOCTYPE HTML>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="<?php $this->options->charset(); ?>" />
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+  <?php if ($this->is('index')): ?><title>Cho's</title>
+	<?php else: ?>
+	<title><?php $this->archiveTitle('.', '', ' - '); ?>Cho's</title>
+	<?php endif; ?>
+	<!--[if lt IE 9]>
+    <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="http://x.papaapp.com/farm1/a571d2/836625e5/normalize.css">
+  <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+  <?php $this->header("generator=&template=&"); ?>
+</head>
+<body>
+<div class="body404">
+<div class="info404">
+<header id="header404" class="clearfix">
+  <div class="site-name404">
+    <i>404</i>
+  </div>
+</header>
+<section>
+  <div class="title404"><p>每一个平凡的日常<br/>都是连续发生中的奇迹</p></div>
+  <a class="index404" rel="nofollow" href="<?php $this->options->siteUrl(); ?>">回首页看看</a>
+</section>
+<footer id="footer404">
+	&copy; <?php echo date('Y'); ?> <?php $this->options->title(); ?>.</span>
+</footer>
 </div>
-<style>#nav-menu{visibility: hidden;}</style>
-<?php $this->need('footer.php'); ?>
+</div>
+<?php $this->footer(); ?>
+<div class="site-search">
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/17068114.js"></script>
+</div>
+</body>
+</html>

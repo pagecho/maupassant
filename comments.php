@@ -1,7 +1,7 @@
 <div id="comments">
     <?php $this->comments()->to($comments); ?>
     <?php if ($comments->have()): ?>
-	<h3 class="widget-title"><?php $this->commentsNum(_t('暂无评论'), _t('仅有 1 条评论'), _t('已有 %d 条评论')); ?></h3>
+	<span class="widget-title"><?php $this->commentsNum(_t('暂无评论'), _t('仅有 1 条评论'), _t('已有 %d 条评论')); ?></span>
     <?php $comments->listComments(); ?>
     <?php $comments->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
     <?php endif; ?>
@@ -10,7 +10,7 @@
         <div class="cancel-comment-reply">
         <?php $comments->cancelReply(); ?>
         </div>
-    	<h3 id="response"><?php _e('添加新评论'); ?></h3>
+    	<span id="response" class="widget-title"><?php _e('添加新评论'); ?></span>
     	<form method="post" action="<?php $this->commentUrl() ?>" id="comment-form">
 			<div class="col1">
 			<p>

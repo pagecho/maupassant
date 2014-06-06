@@ -22,7 +22,7 @@ $this->need('header.php');?>
                  $year = $year_tmp;   
                  $output .= '<div class="al_year">'. $year .' 年</div><ul class="al_mon_list">'; //输出年份   
              }   
-             $output .= '<li>'.date('m/d',$archives->created).'<a href="'.$archives->permalink .'">'. $archives->title .'</a> <em>('. $archives->commentsNum.')</em></li>'; //输出文章日期和标题   
+             $output .= '<li>'.date('m/d',$archives->created).'<a href="'.$archives->permalink .'">'. $archives->title .'</a></li>'; //输出文章日期和标题   
         endwhile;   
         $output .= '</ul></li></ul></div>';   
         echo $output;   

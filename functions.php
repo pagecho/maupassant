@@ -1,7 +1,7 @@
 <?php
 
 function themeConfig($form) {
-    
+
     $sidebarBlock = new Typecho_Widget_Helper_Form_Element_Checkbox('sidebarBlock', 
     array('ShowRecentPosts' => _t('显示最新文章'),
     'ShowRecentComments' => _t('显示最近回复'),
@@ -12,6 +12,3 @@ function themeConfig($form) {
     
     $form->addInput($sidebarBlock->multiMode());
 }
-
-
-

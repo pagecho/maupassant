@@ -11,13 +11,16 @@
         <?php if ($this->have()): ?>
     	<?php while($this->next()): ?>
             <article class="post">
-    			<h2 class="post-title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
-    			<ul class="post-meta">
-					<li><?php $this->date('F j, Y'); ?></li>
-					<li class="comment-count"><a rel="nofollow" href="<?php $this->permalink() ?>#comments"><?php $this->commentsNum('0 条评论', '1 条评论', '%d 条评论'); ?></a></li>
-				</ul>
+    			<header>
+				<h2 class="post-title">
+					<a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
+				</h2>
+			</heaer>
+			<date class="post-meta">
+				<?php $this->date('F j, Y'); ?>
+			</date>
                 <div class="post-content">
-        			<?php $this->content('- 阅读剩余部分 -'); ?>
+        		<?php $this->content('- 阅读剩余部分 -'); ?>
                 </div>
     		</article>
 		<?php endwhile; ?>
@@ -26,7 +29,7 @@
                 <h2 class="post-title"><?php _e('没有找到内容'); ?></h2>
             </article>
         <?php endif; ?>
-        <?php $this->pageNav('&laquo; Previous','Next &raquo;',10,'...');?>
+        <?php $this->pageNav('&laquo; 前一页', '后一页 &raquo;'); ?>
 	</div>
 </div>
 <?php $this->need('sidebar.php'); ?>
