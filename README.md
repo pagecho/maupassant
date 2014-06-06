@@ -7,6 +7,6 @@ A simple typecho template with great performance on different devices.
 
 ###Maupassant on different platform:
 
-+ Typecho：https://github.com/pagecho/maupassant/
++ Typecho：https://github.com/pickcho/maupassant/
 + Wordpress：https://github.com/iMuFeng/maupassant/
-+ Octopress：http://pagecho.github.io/blog/theme-mewpassant/
++ Octopress：https://github.com/pickcho/mewpassant/
