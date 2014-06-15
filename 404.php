@@ -11,10 +11,10 @@
 	<title><?php $this->archiveTitle('.', '', ' - '); ?>Cho's</title>
 	<?php endif; ?>
 	<!--[if lt IE 9]>
-    <script src="http://x.papaapp.com/farm1/a571d2/8dda131d/html5shiv.js"></script>
-  <![endif]-->
-  <link rel="stylesheet" href="http://x.papaapp.com/farm1/a571d2/836625e5/normalize.css">
-  <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('javascript/html5shiv.js'); ?>">
+    <![endif]-->
+    <link rel="stylesheet" href="<?php $this->options->adminUrl('css/normalize.css'); ?>">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
   <?php $this->header("generator=&template=&"); ?>
 </head>
 <body>
