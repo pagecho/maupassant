@@ -35,8 +35,5 @@
 </div>
 </div>
 <?php $this->footer(); ?>
-<div class="site-search">
-<script language="javascript" type="text/javascript" src="http://js.users.51.la/17068114.js"></script>
-</div>
 </body>
 </html>
