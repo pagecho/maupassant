@@ -224,6 +224,9 @@ textarea {
 .col-8 {
     width:800px;
 }
+.col-12{
+    width: 100%;
+}
 .container {
     width:1150px;
     padding:0 60px;
