@@ -72,8 +72,10 @@
 body {
     background-color:#FFF;
     color:#444;
-    font-family: "ff-tisa-web-pro","Times New Roman",Cambria, Georgia, Times, serif;
     font-size:14px;
+    font-family:"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 a, button.submit {
     color:#6E7173;
