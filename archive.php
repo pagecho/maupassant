@@ -15,7 +15,7 @@
 				<h2 class="post-title">
 					<a href="<?php $this->permalink() ?>"><?php $this->title() ?></a>
 				</h2>
-			</heaer>
+			</header>
 			<date class="post-meta">
 				<?php $this->date('F j, Y'); ?>
 			</date>
