@@ -11,4 +11,5 @@ A simple typecho template with great performance on different devices.
 + Octopress：https://github.com/pagecho/mewpassant/
 + Farbox：https://github.com/pagecho/Maupassant-farbox/
 + Wordpress：https://github.com/iMuFeng/maupassant/
-+ Ghost: https://github.com/LjxPrime/maupassant
++ Ghost: https://github.com/LjxPrime/maupassant (by LjxPrime)
++ Ghost: https://github.com/tufu9441/maupassant-hexo (by tufu9441)
