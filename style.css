@@ -133,6 +133,13 @@ input[type="text"], input[type="email"], input[type="url"], input[type="password
 textarea {
     resize:vertical;
 }
+table{
+    border-collapse: collapse;
+}
+table td{
+    border-top: 1px solid #DDD;
+    padding: 2px;
+}
 .clear {
     clear:both;
 }
@@ -354,8 +361,14 @@ textarea {
     margin-top:-1px;
 }
 .comment-list li {
-    padding:22px 0 0;
-    border-top:1px solid #ddd;
+    padding:22px 0 8px 0;
+}
+.comment-parent{
+    border-left:0;
+}
+.comment-children{
+    padding:0 0 0 1em;
+    border-left:1px solid #ddd;
 }
 .comment-list li.comment-level-even {
     background:#FFF;
@@ -519,7 +532,7 @@ textarea.textarea {
 }
 .post-content hr, .comment-content hr {
     margin:2.1em auto;
-    width:200px;
+    width:72%;
     border:1px solid #ccc;
     border-width:1px 0 0 0;
     position: relative;
